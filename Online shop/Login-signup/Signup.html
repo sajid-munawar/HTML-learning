@@ -3,9 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Signup Form</title>
 </head>
 <body>
-    <h2>signup</h2>
+    <form action="http://www.example.com/login.php" method="POST"  > 
+    <body bgcolor="#efefef">
+    <fieldset >
+            <legend >Personal details</legend>
+    <p> 
+        First Name
+        <input type="text" name="firstname" size="15" maxlength="30" required/>
+        
+    
+        Last Name
+        <input type="text" name="lastname" size="15" maxlength="30"/>
+    </p>
+       <p>
+           Gender:
+           
+           <input id="male" type="radio" name="Gender" value="m" checked/>
+           <label for="male">Male</label>
+           <label><input type="radio" name="Gender" value="f" /> Female </label>
+       </p>
+       <p>
+           Date of Birth:
+           <input type="date" name="dob" />
+       </p>
+       <p>
+           Nationality:
+           <select name="countries" multiple>
+               <option value="pakistan">Pakistan</option>
+               <option value="china">China</option>
+               <option value="usa">U.S.A</option>
+               <option value="england"> England</option>
+               <option value="iran">Iran</option>
+           </select>
+       </p>
+       <p>
+        Please enter your email address:
+        <input type="email" name="email" size="50"/>
+    </p>
+    </fieldset>
+                   </body>
+        
+    <p>
+        Password <br/>
+        <input type="password" name="password" size="15" maxlength="30" />
+    </p>
+    
+    <p>
+        Re-enter password:<br/>
+        <input type="password" name="password" size="15" maxlength="30" />
+        
+    </p>
+    <p>
+        Interests:
+        <input type="checkbox" name="interests" value="men"/> Men's clothing
+        <input type="checkbox" name="interests" value="wmn" /> Women's clothing
+        <input type="checkbox" name="intersets" value="acc" /> Accessories
+        <input type="checkbox" name="intersets" value="elec" checked/> Electronics
+    </p>
+    <p> Comment:
+    </p>
+        <textarea name="comment" rows="3" cols="30">Enter your comments...</textarea>
+    <p>
+        Upload profile Picture:
+        <input type="file" name="dp" />
+        <br/>
+        <br/>
+        <input type="submit" value="Upload"/>
+        <input type="submit" />
+    </p>
+    
+    </form>
+    
 </body>
 </html>
