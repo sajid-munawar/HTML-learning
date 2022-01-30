@@ -51,3 +51,22 @@ p.important {
 .p5em {
     letter-spacing: .5em;
 }
+
+.w1em {
+    word-spacing: .1em;
+}
+
+.w2em {
+    word-spacing: .2em;
+}
+
+.w3em {
+    word-spacing: .3em;
+}
+
+.w4em {
+    word-spacing: .4em;
+}
+.w5em {
+    word-spacing: .5em;
+}
