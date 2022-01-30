@@ -29,3 +29,25 @@ p.important {
 .font_style {
     font-style: italic;
 }
+.red {
+    color: #cc0000;
+}
+
+.p1em {
+    letter-spacing: .1em;
+}
+
+.p2em {
+    letter-spacing: .2em;
+}
+
+.p3em {
+    letter-spacing: .3em;
+}
+
+.p4em {
+    letter-spacing: .4em;
+}
+.p5em {
+    letter-spacing: .5em;
+}
