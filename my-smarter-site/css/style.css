@@ -25,3 +25,7 @@ p.important {
 .typewriter {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+.font_style {
+    font-style: italic;
+}
