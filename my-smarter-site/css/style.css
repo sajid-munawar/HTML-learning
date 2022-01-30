@@ -90,3 +90,12 @@ h3.text_align {
 .center {
     text-align: center;
 }
+
+.ind {
+    text-indent: 5em;
+}
+
+blockquote {
+    font-size: 1.4em;
+    color: rgb(6, 138, 23);
+    }
