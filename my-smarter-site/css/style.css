@@ -70,3 +70,23 @@ p.important {
 .w5em {
     word-spacing: .5em;
 }
+
+.lineheight {
+    line-height: 5em;
+}
+
+h3.text_align {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.pretty {
+    text-align: justify;
+}
+
+.center {
+    text-align: center;
+}
