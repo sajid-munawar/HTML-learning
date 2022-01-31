@@ -137,3 +137,7 @@ p.boxed_padding {
 /* body {
     color: rgb(0, 38, 255);
 } */
+div#midpage {
+    margin: 0 3em 0 3em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
