@@ -133,3 +133,7 @@ p.boxed_padding {
     border: 5px solid red;
     padding: 1.1em .2em 0 2.3em;
     }
+
+body {
+    color: rgb(0, 38, 255);
+}
