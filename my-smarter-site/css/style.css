@@ -115,3 +115,16 @@ blockquote {
 .margin_right {
     margin-right: 9em;
 }
+
+
+p.boxed {
+    border: 5px solid red;
+}
+
+.enclose {
+    border: 5px dotted green;
+}
+
+.l_border {
+    border-left:20px dashed yellow ;
+}
