@@ -99,3 +99,19 @@ blockquote {
     font-size: 1.4em;
     color: rgb(6, 138, 23);
     }
+
+.top_margin {
+    margin-top: 2em;
+}
+
+.margins {
+    margin: 2em;
+}
+
+.margins_all {
+    margin: 0 1em 0 5em;
+}
+
+.margin_right {
+    margin-right: 9em;
+}
