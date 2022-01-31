@@ -128,3 +128,8 @@ p.boxed {
 .l_border {
     border-left:20px dashed yellow ;
 }
+
+p.boxed_padding {
+    border: 5px solid red;
+    padding: 1.1em .2em 0 2.3em;
+    }
