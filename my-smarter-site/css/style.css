@@ -177,3 +177,8 @@ ul {
     li {
         margin: .75em;
         }
+
+        ul {
+            list-style-position: outside;
+            }
+            
