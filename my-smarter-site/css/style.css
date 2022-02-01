@@ -181,4 +181,16 @@ ul {
         ul {
             list-style-position: outside;
             }
+
+ul {
+    /* list-style-type: circle; */
+    list-style-type: square;
+}
+
+ol {
+    /* list-style-type:lower-alpha ; */
+/* list-style-type: lower-greek; */
+/* list-style-type: lower-latin; */
+list-style-type: lower-roman;
+}
             
