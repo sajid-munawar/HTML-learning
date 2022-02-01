@@ -153,10 +153,19 @@ div#midpage {
 }
 
 a {
-    color: #cc0000;
+    color: #0047cc;
 }
 
 a:hover {
     text-decoration: none;
     font-weight: bold;
+    /* font-size: 10em ; */
+    color: rgb(214, 0, 0);
+}
+a:visited {
+    color: rgb(18, 0, 100);
+}
+
+a:active {
+     font-size: 4em;
 }
