@@ -193,4 +193,12 @@ list-style-type: lower-greek;
 /* list-style-type: lower-latin; */
 /* list-style-type: lower-roman; */
 }
-            
+         
+th, td {
+    border: 1px solid black;
+    }
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
