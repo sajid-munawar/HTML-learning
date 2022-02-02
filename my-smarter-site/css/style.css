@@ -212,4 +212,9 @@ form {
     font-family: Verdana, Geneva, sans-serif;
     font-size: 1em;
     }
-    
+input[type="submit"] {
+    font-size: 1.2em;
+}  
+legend {
+    font-weight: 700;
+}  
