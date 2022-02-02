@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br/> <br/> <br/> <br/> <h3>Form</h3>
+    <form method="post" action="" > 
+        <br/> First Name:
+        <input type="text" size="25" maxlength="40" > Last Name: 
+        <input name="surname" type="text" size="25" maxlength="40" > password
+        <input name="password" type="password" size="25" maxlength="40" >
+    </form>
+    <br/> <br/> <br/>
+    <form method="post">Message
+        <textarea name="message"></textarea> <br/>
+        <textarea name="message" rows="4" cols="20"></textarea> <br/>
+        <input type="submit" value="Click to submit">
+        <input type="search" >
+    </form>
+
+<br/><br/><br/>
+    <form action=“send-email.php” method=“post”>
+        Last name:
+        <br>
+        <input type=“text” name=“surname” size=“25”maxlength=“40”>
+        <br><br>
+        How did you find us?<br>
+        <input type="radio" name="foundthru" value="Google" checked='checked'>Google
+        <input type="radio" name="foudnthru" value="Review">Review
+        <input type="radio" name="foundthru" value="Friend">Friend
+        <br><br>
+        Message:
+        <br>
+        <textarea name=“message” rows=“4” cols=“30”></textarea>
+        <br><br>
+        <input type=“submit” value=“Send email message”>
+<br/><br/>
+        <input type="checkbox" name="feedback" value="Wonderful">Wonderful
+        <input type="checkbox" name="feedback" value="Wonderful">Wonderful
+        <input type="checkbox" name="feedback" value="Brilliant">Brilliant
+
+        </form>
+
+</body>
+</html>
