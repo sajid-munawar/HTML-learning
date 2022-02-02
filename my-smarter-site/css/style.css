@@ -216,5 +216,6 @@ input[type="submit"] {
     font-size: 1.2em;
 }  
 legend {
-    font-weight: 700;
+    font-weight: 750; 
 }  
+/* this is a css comment */
