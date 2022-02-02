@@ -219,3 +219,9 @@ legend {
     font-weight: 750; 
 }  
 /* this is a css comment */
+.layoutpng {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
